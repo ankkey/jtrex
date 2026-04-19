@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dino Runner</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="gameContainer">
+    <canvas id="c"></canvas>
+
+    <div id="ui">
+      <div id="score">00000</div>
+      <div id="hiScore">HI</div>
+    </div>
+
+    <div id="powerups"></div>
+    <div id="milestones"></div>
+
+    <div id="overlay">
+      <h2>DINO RUNNER</h2>
+      <p>Nhấn <strong>SPACE</strong> hoặc <strong>↑</strong> để nhảy (nhảy đôi)</p>
+      <p>Nhấn <strong>Z</strong> để bắn súng (sau 1000 điểm)</p>
+      <p>Chạm màn hình để nhảy trên mobile</p>
+      <div id="taunt" class="taunt"></div>
+      <button id="startBtn">BẮT ĐẦU</button>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
